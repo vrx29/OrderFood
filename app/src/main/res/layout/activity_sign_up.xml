@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".SignUp">
+
+<LinearLayout
+    android:id="@+id/llBack"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:id="@+id/btnBackSignUp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/back_button"
+        android:layout_width="40dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="50dp"
+    android:layout_below="@+id/llBack"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:text="Phone Number"
+        android:textSize="18dp"
+        android:textColor="#eceff1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:hint="9799999723"
+        android:textColorHint="#424242"
+        android:layout_width="250dp"
+        android:textColor="#eceff1"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Name"
+        android:textSize="18dp"
+        android:textColor="#eceff1"
+        android:layout_marginTop="15dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="250dp"
+        android:hint="Ram"
+        android:textColor="#eceff1"
+        android:textColorHint="#424242"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:text="Password"
+        android:textColor="#eceff1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="250dp"
+        android:textColor="#eceff1"
+        android:hint="*********"
+        android:textColorHint="#424242"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="sign up"
+        android:id="@+id/btnSignUp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/sign_up_page_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</RelativeLayout>

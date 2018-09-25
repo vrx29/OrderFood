@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1088860122396",
+    "firebase_url": "https://orderfood-f5fc9.firebaseio.com",
+    "project_id": "orderfood-f5fc9",
+    "storage_bucket": "orderfood-f5fc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088860122396:android:382b1ccbdd4c0025",
+        "android_client_info": {
+          "package_name": "com.vineet.orderfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088860122396-3cmo5d8ii4rfsed4j91u9tl9iocbfl5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vineet.orderfood",
+            "certificate_hash": "fd47cc0e8fbc00a6b547591a33caafc5b02bd5af"
+          }
+        },
+        {
+          "client_id": "1088860122396-u8jekdv6c6g7n4v5e5vma3f8t5dqgciq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvJbu26oxS_mqiKi-bH9j6Nb4M6TMhsss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088860122396-u8jekdv6c6g7n4v5e5vma3f8t5dqgciq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
