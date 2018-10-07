@@ -69,6 +69,8 @@ public class Home extends AppCompatActivity
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                Intent cartIntent = new Intent(Home.this, Cart.class);
+                startActivity(cartIntent);
             }
         });
 
